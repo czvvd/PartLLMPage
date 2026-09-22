@@ -4,10 +4,10 @@ import ResultsViewer from './results-viewer';
 import { Box, Code2, FileText, type LucideIcon } from 'lucide-react';
 import { assetPath } from './asset-path';
 
-const resources: Array<{ label: string; icon: LucideIcon }> = [
+const resources: Array<{ label: string; icon: LucideIcon; href?: string }> = [
   { label: 'Paper', icon: FileText },
   { label: 'Code', icon: Code2 },
-  { label: 'Model', icon: Box },
+  { label: 'Model', icon: Box, href: 'https://huggingface.co/Czvvd/PartLLM' },
 ];
 
 const authors = [
@@ -77,17 +77,30 @@ export default function Home() {
         </div>
 
         <div className="resource-row" aria-label="Project resources">
-          {resources.map(({ label, icon: Icon }) => (
-            <button
-              key={label}
-              className={`resource-button${label === 'Paper' ? ' resource-button--active' : ''}`}
-              type="button"
-              disabled
-            >
-              <Icon size={17} strokeWidth={1.8} />
-              <span>{label}</span>
-            </button>
-          ))}
+          {resources.map(({ label, icon: Icon, href }) =>
+            href ? (
+              <a
+                key={label}
+                className="resource-button"
+                href={href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Icon size={17} strokeWidth={1.8} />
+                <span>{label}</span>
+              </a>
+            ) : (
+              <button
+                key={label}
+                className={`resource-button${label === 'Paper' ? ' resource-button--active' : ''}`}
+                type="button"
+                disabled
+              >
+                <Icon size={17} strokeWidth={1.8} />
+                <span>{label}</span>
+              </button>
+            ),
+          )}
         </div>
       </header>
 
