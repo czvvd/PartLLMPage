@@ -11,8 +11,7 @@ export default function TextResultsViewer() {
   return (
     <>
       <div className="result-controls">
-        <fieldset className="mesh-picker">
-          <legend>Mesh</legend>
+        <fieldset className="mesh-picker" aria-label="Text-guided examples">
           <div className="mesh-thumbnails">
             {results.map((item, index) => (
               <button
@@ -42,7 +41,8 @@ export default function TextResultsViewer() {
               key: selected,
               src: assetPath(example.src),
               alt: `Text-guided result ${selected + 1}`,
-              class: 'model-viewer',
+              className: 'model-viewer',
+              loading: 'lazy',
               'camera-controls': true,
               'camera-orbit': example.cameraOrbit,
               'auto-rotate': true,

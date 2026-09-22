@@ -322,57 +322,27 @@ video {
   padding-bottom: 110px;
 }
 
-.example-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 12px;
+.results-stack {
+  display: grid;
 }
 
-.example-tabs button {
-  display: inline-flex;
-  min-height: 42px;
-  align-items: center;
-  gap: 9px;
-  padding: 0 14px;
-  border: 1px solid #dedee5;
-  border-radius: 999px;
-  background: white;
-  color: #5c5d68;
-  cursor: pointer;
-  font-size: 13px;
-  font-weight: 620;
-  transition:
-    border-color 160ms ease,
-    background 160ms ease,
-    color 160ms ease;
+.result-task {
+  min-width: 0;
 }
 
-.example-tabs button:hover {
-  border-color: #bfc0cb;
+.result-task + .result-task {
+  padding-top: 84px;
+  margin-top: 84px;
+  border-top: 1px solid #dddde4;
+}
+
+.result-task-title {
+  margin: 0 0 22px;
   color: var(--ink);
-}
-
-.example-tabs button.is-active {
-  border-color: var(--ink);
-  background: var(--ink);
-  color: white;
-}
-
-.example-tabs small {
-  padding: 3px 6px;
-  border-radius: 999px;
-  background: #f0f0f4;
-  color: #8e8f9a;
-  font-size: 8px;
-  font-weight: 760;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.example-tabs button.is-active small {
-  background: #30313a;
-  color: #bfc0c9;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: clamp(25px, 3vw, 34px);
+  font-weight: 500;
+  letter-spacing: -0.03em;
 }
 
 .viewer-demo {
@@ -604,31 +574,6 @@ video {
   margin-bottom: 18px;
 }
 
-.example-tabs button:focus-visible {
-  outline: 2px solid var(--accent);
-  outline-offset: 3px;
-}
-
-.result-mode-placeholder {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 300px;
-  padding: 32px;
-  border: 1px solid #e1e1e8;
-  border-radius: 20px;
-  background: #f7f7fa;
-  color: #777987;
-  gap: 8px;
-}
-
-.result-mode-placeholder p {
-  margin: 0;
-  color: var(--ink);
-  font-size: 20px;
-}
-
 .mesh-picker {
   flex: 1 1 600px;
   min-width: 0;
@@ -637,11 +582,6 @@ video {
   margin: 0;
   color: #555866;
   font-size: 14px;
-}
-
-.mesh-picker legend {
-  padding: 0;
-  margin-bottom: 8px;
 }
 
 .mesh-thumbnails {
@@ -710,8 +650,9 @@ video {
   display: flex;
   gap: 4px;
   padding: 4px;
+  border: 1px solid #3d404e;
   border-radius: 10px;
-  background: #292b36;
+  background: #252731;
   color: #bfc0c8;
 }
 
@@ -719,15 +660,30 @@ video {
   position: relative;
   flex: 1;
   padding: 7px 18px;
+  border: 1px solid transparent;
   border-radius: 7px;
   text-align: center;
   cursor: pointer;
   font-size: 15px;
+  transition:
+    background 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.granularity-picker label:hover {
+  background: #343641;
+  color: white;
 }
 
 .granularity-picker label.is-selected {
-  background: var(--ink);
+  border-color: var(--accent);
+  background: #15161d;
   color: white;
+  box-shadow:
+    0 0 0 1px rgb(105 88 255 / 18%),
+    0 5px 14px rgb(0 0 0 / 24%);
 }
 
 .granularity-picker input {

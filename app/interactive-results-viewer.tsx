@@ -29,8 +29,7 @@ export default function InteractiveResultsViewer() {
   return (
     <>
       <div className="result-controls">
-        <fieldset className="mesh-picker">
-          <legend>Mesh</legend>
+        <fieldset className="mesh-picker" aria-label="Interactive examples">
           <div className="mesh-thumbnails">
             {results.map((item, index) => (
               <button
@@ -82,7 +81,8 @@ export default function InteractiveResultsViewer() {
                 key: `${selected}-${step}`,
                 src: assetPath(variant.src),
                 alt: `Interactive result ${selected + 1}, ${stepLabels[step]} interaction`,
-                class: 'model-viewer',
+                className: 'model-viewer',
+                loading: 'lazy',
                 'camera-controls': true,
                 'camera-orbit': example.cameraOrbit,
                 'auto-rotate': true,
@@ -98,7 +98,7 @@ export default function InteractiveResultsViewer() {
                 createElement('span', {
                   key: point.index,
                   slot: `hotspot-${point.index}`,
-                  class: `interaction-hotspot is-${point.type} is-point-${point.index}`,
+                  className: `interaction-hotspot is-${point.type} is-point-${point.index}`,
                   'data-position': point.position,
                   'aria-hidden': true,
                 }),
