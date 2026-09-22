@@ -6,7 +6,7 @@ import { assetPath } from './asset-path';
 
 const resources: Array<{ label: string; icon: LucideIcon; href?: string }> = [
   { label: 'Paper', icon: FileText },
-  { label: 'Code', icon: Code2 },
+  { label: 'Code', icon: Code2, href: 'https://github.com/czvvd/PartLLM' },
   { label: 'Model', icon: Box, href: 'https://huggingface.co/Czvvd/PartLLM' },
 ];
 
