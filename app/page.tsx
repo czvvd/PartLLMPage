@@ -107,7 +107,7 @@ export default function Home() {
             aria-label="PartLLM paper video"
           >
             <source
-              src={`${assetPath('/assets/Paper_Video.mp4')}?v=20260922`}
+              src={`${assetPath('/assets/Paper_Video.mp4')}?v=20260922b`}
               type="video/mp4"
             />
           </video>
