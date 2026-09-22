@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono, Jost } from 'next/font/google';
 import Script from 'next/script';
-import { assetPath } from './asset-path';
 import './globals.css';
 
 const geistSans = Geist({
@@ -24,7 +23,6 @@ export const metadata: Metadata = {
   title: 'PartLLM: A Unified Multimodal Foundation for 3D Part Segmentation',
   description:
     'PartLLM is a unified multimodal foundation for text-guided, interactive, and semantic full-shape 3D part segmentation.',
-  icons: { icon: assetPath('/favicon.svg') },
 };
 
 export default function RootLayout({
