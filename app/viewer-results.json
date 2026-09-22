@@ -1,0 +1,3690 @@
+[
+  {
+    "thumbnail": "/assets/results/full_1.png",
+    "cameraOrbit": "200deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_1_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Shoe",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Lower Body",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Upper Body",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Head",
+            "color": "#F58231"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_1.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Twin Tails",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Arm",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Boot",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Leg",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Hair",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Skirt",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Bow",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Head",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Skirt",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Shoe",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Leg",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Arm",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Twin Tails",
+            "color": "#FFFAC8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_2.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_2_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Casing",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Control Elements",
+            "color": "#3CB44B"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_2.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Trigger",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Trigger",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Buttons",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Buttons",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Buttons",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Buttons",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Buttons",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Buttons",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Buttons",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Buttons",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Battery Compartment",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Buttons",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 12,
+            "label": "Buttons",
+            "color": "#800000"
+          },
+          {
+            "id": 13,
+            "label": "Casing",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 14,
+            "label": "Stick",
+            "color": "#808000"
+          },
+          {
+            "id": 15,
+            "label": "Stick",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 16,
+            "label": "Thumb Cap",
+            "color": "#000075"
+          },
+          {
+            "id": 17,
+            "label": "Thumb Cap",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 18,
+            "label": "Base",
+            "color": "#FF4500"
+          },
+          {
+            "id": 19,
+            "label": "Base",
+            "color": "#E6194B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_3.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_3_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Base",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Leaves",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Body",
+            "color": "#4363D8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_3.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Leaf",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Eye",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Leaf",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Plant",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Leaf",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Leaf",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Pot",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Head",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Stem",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Eye",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Plant Leaf",
+            "color": "#DCBEFF"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_4.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_4_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Lighting",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Frame",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Hanging Mechanism",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Chandelier Base",
+            "color": "#F58231"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_4.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Lamp Holder",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Bulb",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Arm",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Lamp Holder",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Bulb",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Arm",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Lamp Holder",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Bulb",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Arm",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Arm",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Arm",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Arm",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Arm",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Arm",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Arm",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Support Ring",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Support Ring",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Base",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Hanging Rod",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Decorative Elements",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Arm",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Arm",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Arm",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Arm",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Arm",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Arm",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Arm",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Arm",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 28,
+            "label": "Lamp Holder",
+            "color": "#FABED4"
+          },
+          {
+            "id": 29,
+            "label": "Bulb",
+            "color": "#469990"
+          },
+          {
+            "id": 30,
+            "label": "Lamp Holder",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 31,
+            "label": "Bulb",
+            "color": "#9A6324"
+          },
+          {
+            "id": 32,
+            "label": "Arm",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 33,
+            "label": "Lamp Holder",
+            "color": "#800000"
+          },
+          {
+            "id": 34,
+            "label": "Bulb",
+            "color": "#AAFFC3"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_5.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_5_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Headwear",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Clothing",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Body",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Legs",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Arms",
+            "color": "#911eb4"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_5.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Glove",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Arm Guard",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Sleeve",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Shoulder Guard",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Boot",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Knee Guard",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Thigh Armor",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Trousers",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Chest Armor",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Helmet",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Neck",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Cape",
+            "color": "#9a6324"
+          },
+          {
+            "id": 12,
+            "label": "Thigh Armor",
+            "color": "#fffac8"
+          },
+          {
+            "id": 13,
+            "label": "Knee Guard",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Boot",
+            "color": "#aaffc3"
+          },
+          {
+            "id": 15,
+            "label": "Shoulder Guard",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Sleeve",
+            "color": "#ffd8b1"
+          },
+          {
+            "id": 17,
+            "label": "Arm Guard",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Glove",
+            "color": "#a9a9a9"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_6.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_6_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Building",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Waterwheel",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Wheel Support",
+            "color": "#4363D8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_6.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Building Body",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Roof",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Stone Block",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Stone Block",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Stone Block",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Stone Block",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Stone Block",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Stone Block",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Stone Block",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Stone Block",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Stone Block",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Stone Block",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Stone Block",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Stone Block",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Stone Block",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Stone Block",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Stone Block",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Stone Block",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Stone Block",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Stone Block",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Stone Block",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Stone Block",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Stone Block",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Stone Block",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Stone Block",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Stone Block",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Stone Block",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Stone Block",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 28,
+            "label": "Stone Block",
+            "color": "#FABED4"
+          },
+          {
+            "id": 29,
+            "label": "Stone Block",
+            "color": "#469990"
+          },
+          {
+            "id": 30,
+            "label": "Stone Block",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 31,
+            "label": "Stone Block",
+            "color": "#9A6324"
+          },
+          {
+            "id": 32,
+            "label": "Stone Block",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 33,
+            "label": "Stone Block",
+            "color": "#800000"
+          },
+          {
+            "id": 34,
+            "label": "Stone Block",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 35,
+            "label": "Stone Block",
+            "color": "#808000"
+          },
+          {
+            "id": 36,
+            "label": "Stone Block",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 37,
+            "label": "Stone Block",
+            "color": "#000075"
+          },
+          {
+            "id": 38,
+            "label": "Stone Block",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 39,
+            "label": "Stone Block",
+            "color": "#FF4500"
+          },
+          {
+            "id": 40,
+            "label": "Stone Block",
+            "color": "#E6194B"
+          },
+          {
+            "id": 41,
+            "label": "Stone Block",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 42,
+            "label": "Stone Block",
+            "color": "#4363D8"
+          },
+          {
+            "id": 43,
+            "label": "Stone Block",
+            "color": "#F58231"
+          },
+          {
+            "id": 44,
+            "label": "Stone Block",
+            "color": "#911EB4"
+          },
+          {
+            "id": 45,
+            "label": "Stone Block",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 46,
+            "label": "Wheel",
+            "color": "#F032E6"
+          },
+          {
+            "id": 47,
+            "label": "Wheel And Axle Assembly",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 48,
+            "label": "Cylinder",
+            "color": "#FABED4"
+          },
+          {
+            "id": 49,
+            "label": "Block",
+            "color": "#469990"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_7.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_7_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Character",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Base",
+            "color": "#3CB44B"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_7.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Leg",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Ear",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Eye",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Base",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Torso",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Head",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Eye",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Ear",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Tail",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Leg",
+            "color": "#469990"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_8.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_8_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Tail Wing",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Antenna Radar",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Wing",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Engine",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Fuselage",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Landing Gear",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "External Device",
+            "color": "#F032E6"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_8.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Tail Fin Group",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Antenna Radar",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Wingtip Probe",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Bottom Antenna",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Side Sensor",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Outer Engine",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Outer Engine",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Auxiliary Landing Gear",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Central Main Landing Gear",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Wing",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Wing",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Fuselage And Cabin",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Auxiliary Landing Gear",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Nose Landing Gear",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Inner Engine",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Inner Engine",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Top Antenna",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Nose Detector",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Front Landing Gear",
+            "color": "#A9A9A9"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_9.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_9_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Plant",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Body",
+            "color": "#3CB44B"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_9.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Leaf",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Leaf",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Leaf",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Leaf",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Leaf",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Leaf",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Leaf",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Leaf",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Stem",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Vase Neck",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Vase Container",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Stem",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Leaf",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Leaf",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Leaf",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Leaf",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Leaf",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Leaf",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Leaf",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Leaf",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Leaf",
+            "color": "#E6194B"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_10.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_10_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Decorations",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Hat",
+            "color": "#3cb44b"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_10.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Cylinder",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Eye",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Hat",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Hat",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Eye",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Cylinder",
+            "color": "#42d4f4"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_11.png",
+    "cameraOrbit": "155deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_11_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Cannon Barrel",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Wheel",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Cart Frame",
+            "color": "#4363d8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_11.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Wheel",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Wheel",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Cylindrical Components",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Cart",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Plank",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Cart",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Axle",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Cannon Barrel",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Plank",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Cylindrical Components",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Cannon Wheel",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Wheel",
+            "color": "#9a6324"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_12.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_12_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Arm Ornament",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Lower Body",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Head",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Upper Garment",
+            "color": "#F58231"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_12.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Hand",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Arm Guard",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Upper Arm",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Boot",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Cape",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Head",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Trousers",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Upper Garment",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Belt",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Boot",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Upper Arm",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Arm Guard",
+            "color": "#9a6324"
+          },
+          {
+            "id": 12,
+            "label": "Hand",
+            "color": "#fffac8"
+          }
+        ],
+        "hasUnsegmented": true
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_13.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_13_coarse.glb",
+        "prompt": "Please segment and name all parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Stairs",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Roof Structure",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "House Base",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Deck",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "House",
+            "color": "#911EB4"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_13.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Window",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Support Legs",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Support Legs",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Support Legs",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Support Legs",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Support Legs",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Support Legs",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Window",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Window",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Chimney",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Roof",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Staircase",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Chimney",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Stairs",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Door",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Brick Wall",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Roof",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Porch",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Ground",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Porch",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Wall Section",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Roof Section",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Roof",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Door",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Window",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Window",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Support Legs",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Support Legs",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 28,
+            "label": "Support Legs",
+            "color": "#FABED4"
+          },
+          {
+            "id": 29,
+            "label": "Support Legs",
+            "color": "#469990"
+          },
+          {
+            "id": 30,
+            "label": "Support Legs",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 31,
+            "label": "Support Legs",
+            "color": "#9A6324"
+          },
+          {
+            "id": 32,
+            "label": "Window",
+            "color": "#FFFAC8"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_14.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_14_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Pot",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Cactus",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Top Hat",
+            "color": "#4363D8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_14.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Spike",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Spike",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Spike",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Spike",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Spike",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Spike",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Spike",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Spike",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Spike",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Spike",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Spike",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Spike",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Spike",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Spike",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Spike",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Spike",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Spike",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Spike",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Spike",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Spike",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Spike",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Spike",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Spike",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Spike",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Spike",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Spike",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Spike",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Spike",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 28,
+            "label": "Spike",
+            "color": "#FABED4"
+          },
+          {
+            "id": 29,
+            "label": "Spike",
+            "color": "#469990"
+          },
+          {
+            "id": 30,
+            "label": "Cactus Body",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 31,
+            "label": "Top Hat",
+            "color": "#9A6324"
+          },
+          {
+            "id": 32,
+            "label": "Pot",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 33,
+            "label": "Spike",
+            "color": "#800000"
+          },
+          {
+            "id": 34,
+            "label": "Spike",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 35,
+            "label": "Spike",
+            "color": "#808000"
+          },
+          {
+            "id": 36,
+            "label": "Spike",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 37,
+            "label": "Spike",
+            "color": "#000075"
+          },
+          {
+            "id": 38,
+            "label": "Spike",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 39,
+            "label": "Spike",
+            "color": "#FF4500"
+          },
+          {
+            "id": 40,
+            "label": "Spike",
+            "color": "#E6194B"
+          },
+          {
+            "id": 41,
+            "label": "Spike",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 42,
+            "label": "Spike",
+            "color": "#4363D8"
+          },
+          {
+            "id": 43,
+            "label": "Spike",
+            "color": "#F58231"
+          },
+          {
+            "id": 44,
+            "label": "Spike",
+            "color": "#911EB4"
+          },
+          {
+            "id": 45,
+            "label": "Spike",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 46,
+            "label": "Spike",
+            "color": "#F032E6"
+          },
+          {
+            "id": 47,
+            "label": "Spike",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 48,
+            "label": "Spike",
+            "color": "#FABED4"
+          },
+          {
+            "id": 49,
+            "label": "Spike",
+            "color": "#469990"
+          },
+          {
+            "id": 50,
+            "label": "Spike",
+            "color": "#DCBEFF"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_15.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_15_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Wheel",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Body",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Base",
+            "color": "#4363d8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_15.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "hasUnsegmented": true,
+        "labels": [
+          {
+            "id": 0,
+            "label": "Wheel",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Wheel",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Panel",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Body",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Seat",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Body",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Body",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Handlebar",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Wheel",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Wheel Assembly",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Wheel",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Fender",
+            "color": "#9a6324"
+          },
+          {
+            "id": 12,
+            "label": "Wheel",
+            "color": "#fffac8"
+          },
+          {
+            "id": 13,
+            "label": "Wheel",
+            "color": "#800000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_16.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_16_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Wheel",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Body",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Turret",
+            "color": "#4363D8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_16.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Tire",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Tire",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Tire",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Exhaust Pipe",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Front Grille",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Tire",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Vehicle",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Exhaust Pipe",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Vehicle",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Tank",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Vehicle",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Cannon Barrel",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Front Bumper",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Rear Bumper",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Antenna",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Suspension",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Body",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Tank Turret",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Turret",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Rear Bumper",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Spare Tire",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Vehicle",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Exhaust Pipe",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Front Bumper",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Exhaust Pipe",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Tire",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Tire",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Tire",
+            "color": "#BFEF45"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_17.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_17_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Exposed Skin",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Clothing",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Head",
+            "color": "#4363D8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_17.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Hand",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Eyebrow",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Shoe",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Eye",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Headband",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Head",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Pants",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "T-Shirt",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Jacket",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Human Figure",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Head",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Button",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Button",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Button",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Eye",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Shoe",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Eyebrow",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Hand",
+            "color": "#000075"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_18.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_18_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Strap",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Case",
+            "color": "#3CB44B"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_18.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "hasUnsegmented": true,
+        "labels": [
+          {
+            "id": 0,
+            "label": "Other",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Clasp Body",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Clasp Body",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Clasp Body",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Clasp Body",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Clasp Body",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Clasp Body",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Clasp Body",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Clasp Body",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Clasp Body",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Clasp Body",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Clasp Body",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Clasp Body",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Clasp Body",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Clasp Body",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Casing",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Dial",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Crystal",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Other",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Crown Wheel",
+            "color": "#FF4500"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_19.png",
+    "cameraOrbit": "290deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_19_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Faucet Handle",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Faucet Body",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Base",
+            "color": "#4363d8"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_19.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Faucet Handle",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Faucet Handle",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Faucet Lever",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Faucet Connector",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Faucet Connector",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Faucet Body",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Faucet Body",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Faucet Body",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Plate",
+            "color": "#fabed4"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_20.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_20_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Horn",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Body",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Hand",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Head",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Horn",
+            "color": "#911EB4"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_20.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Hand",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Horn",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Shoe",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Teeth",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Head",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Shell",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Head",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Teeth",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Shoe",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Horn",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Hand",
+            "color": "#DCBEFF"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_21.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_21_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Stock",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Grip",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Receiver",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Magazine",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Handguard and Barrel Assembly",
+            "color": "#911EB4"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_21.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Stock",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Grip",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Trigger",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Trigger Guard",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Bolt Handle",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Receiver",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Magazine",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Magazine",
+            "color": "#FABED4"
+          },
+          {
+            "id": 8,
+            "label": "Bolt Handle",
+            "color": "#469990"
+          },
+          {
+            "id": 9,
+            "label": "Aiming Scope",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 10,
+            "label": "Handguard",
+            "color": "#9A6324"
+          },
+          {
+            "id": 11,
+            "label": "Barrel",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 12,
+            "label": "Gas Tube",
+            "color": "#800000"
+          },
+          {
+            "id": 13,
+            "label": "Cleaning Rod",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 14,
+            "label": "Muzzle",
+            "color": "#808000"
+          },
+          {
+            "id": 15,
+            "label": "Front Sight",
+            "color": "#FFD8B1"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_22.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_22_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Body",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Head",
+            "color": "#3cb44b"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_22.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Arm",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Ear",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Leg",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Eye",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Torso",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Teddy Bear Nose",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Head",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Eye",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Leg",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Ear",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Arm",
+            "color": "#dcbeff"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_23.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_23_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Building",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Ground and Fence",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Bed",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Door",
+            "color": "#F58231"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_23.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "hasUnsegmented": true,
+        "labels": [
+          {
+            "id": 0,
+            "label": "Post",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Post",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Window",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Ladder",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Post",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Plank",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Plank",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Roof",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Plank",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Cabin",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Roof",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Ground",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Bed",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Door",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Container",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Container",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Container",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Container",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Container",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Door",
+            "color": "#FF4500"
+          },
+          {
+            "id": 20,
+            "label": "Roof",
+            "color": "#E6194B"
+          },
+          {
+            "id": 21,
+            "label": "Post",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 22,
+            "label": "Post",
+            "color": "#4363D8"
+          },
+          {
+            "id": 23,
+            "label": "Post",
+            "color": "#F58231"
+          },
+          {
+            "id": 24,
+            "label": "Fence",
+            "color": "#911EB4"
+          },
+          {
+            "id": 25,
+            "label": "Post",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 26,
+            "label": "Fence",
+            "color": "#F032E6"
+          },
+          {
+            "id": 27,
+            "label": "Post",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 28,
+            "label": "Post",
+            "color": "#FABED4"
+          },
+          {
+            "id": 29,
+            "label": "Post",
+            "color": "#469990"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_24.png",
+    "cameraOrbit": "200deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_24_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Handle",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Head",
+            "color": "#3cb44b"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_24.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Handle End",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Grip",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Connector",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Connector",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Hammer Head",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Decoration",
+            "color": "#42d4f4"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_25.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_25_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Stock",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Receiver",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Carrying Handle",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Magazine",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Handguard",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Barrel Component",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Barrel",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Muzzle",
+            "color": "#BFEF45"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_25.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Stock",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Stock Connector",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Receiver Rear Section",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Pistol Style Grip",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Rear Sight",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Selector Switch",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Trigger",
+            "color": "#F032E6"
+          },
+          {
+            "id": 7,
+            "label": "Trigger Guard",
+            "color": "#BFEF45"
+          },
+          {
+            "id": 8,
+            "label": "Receiver",
+            "color": "#FABED4"
+          },
+          {
+            "id": 9,
+            "label": "Carrying Handle",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Bolt",
+            "color": "#DCBEFF"
+          },
+          {
+            "id": 11,
+            "label": "Magazine",
+            "color": "#9A6324"
+          },
+          {
+            "id": 12,
+            "label": "Bolt Handle",
+            "color": "#FFFAC8"
+          },
+          {
+            "id": 13,
+            "label": "Handguard",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Gas Tube",
+            "color": "#AAFFC3"
+          },
+          {
+            "id": 15,
+            "label": "Front Sight Base",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Middle Section",
+            "color": "#FFD8B1"
+          },
+          {
+            "id": 17,
+            "label": "Front Sight",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Rear Section",
+            "color": "#A9A9A9"
+          },
+          {
+            "id": 19,
+            "label": "Muzzle Device",
+            "color": "#FF4500"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_26.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_26_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Body",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Cord",
+            "color": "#3cb44b"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_26.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Tail Base",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Front Sensor",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Button",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Button",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Tail Base",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Main Body",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Bottom Bracket",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Tail Base",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Tail Base",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Wire",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": " Port",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Port",
+            "color": "#9a6324"
+          },
+          {
+            "id": 12,
+            "label": "Port",
+            "color": "#fffac8"
+          },
+          {
+            "id": 13,
+            "label": "Port",
+            "color": "#800000"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_27.png",
+    "cameraOrbit": "290deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_27_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Grenade Lever",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Grenade Body",
+            "color": "#3CB44B"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_27.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Grenade Pin",
+            "color": "#E6194B"
+          },
+          {
+            "id": 1,
+            "label": "Safety Pin",
+            "color": "#3CB44B"
+          },
+          {
+            "id": 2,
+            "label": "Grenade Body",
+            "color": "#4363D8"
+          },
+          {
+            "id": 3,
+            "label": "Grenade Fuze",
+            "color": "#F58231"
+          },
+          {
+            "id": 4,
+            "label": "Lug",
+            "color": "#911EB4"
+          },
+          {
+            "id": 5,
+            "label": "Grenade Fuze",
+            "color": "#42D4F4"
+          },
+          {
+            "id": 6,
+            "label": "Safety Pin",
+            "color": "#F032E6"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/results/full_28.png",
+    "cameraOrbit": "110deg 75deg auto",
+    "variants": {
+      "coarse": {
+        "src": "/assets/results/full_28_coarse.glb",
+        "prompt": "Please segment and name the main parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Sword",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Torso",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Boots",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Hat",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Limbs",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Shield",
+            "color": "#42d4f4"
+          }
+        ]
+      },
+      "fine": {
+        "src": "/assets/results/full_28.glb",
+        "prompt": "Please segment and name all the detailed parts of this 3D object in <point_cloud>.",
+        "labels": [
+          {
+            "id": 0,
+            "label": "Arm",
+            "color": "#e6194b"
+          },
+          {
+            "id": 1,
+            "label": "Sleeve",
+            "color": "#3cb44b"
+          },
+          {
+            "id": 2,
+            "label": "Hair",
+            "color": "#4363d8"
+          },
+          {
+            "id": 3,
+            "label": "Pants",
+            "color": "#f58231"
+          },
+          {
+            "id": 4,
+            "label": "Shoe",
+            "color": "#911eb4"
+          },
+          {
+            "id": 5,
+            "label": "Vest",
+            "color": "#42d4f4"
+          },
+          {
+            "id": 6,
+            "label": "Neck",
+            "color": "#f032e6"
+          },
+          {
+            "id": 7,
+            "label": "Pants",
+            "color": "#bfef45"
+          },
+          {
+            "id": 8,
+            "label": "Shoe",
+            "color": "#fabed4"
+          },
+          {
+            "id": 9,
+            "label": "Face",
+            "color": "#469990"
+          },
+          {
+            "id": 10,
+            "label": "Shield",
+            "color": "#dcbeff"
+          },
+          {
+            "id": 11,
+            "label": "Sleeve",
+            "color": "#9a6324"
+          },
+          {
+            "id": 12,
+            "label": "Arm",
+            "color": "#fffac8"
+          },
+          {
+            "id": 13,
+            "label": "Beard",
+            "color": "#800000"
+          },
+          {
+            "id": 14,
+            "label": "Eye",
+            "color": "#aaffc3"
+          },
+          {
+            "id": 15,
+            "label": "Eyebrow",
+            "color": "#808000"
+          },
+          {
+            "id": 16,
+            "label": "Eye",
+            "color": "#ffd8b1"
+          },
+          {
+            "id": 17,
+            "label": "Eyebrow",
+            "color": "#000075"
+          },
+          {
+            "id": 18,
+            "label": "Helmet",
+            "color": "#a9a9a9"
+          },
+          {
+            "id": 19,
+            "label": "Katana",
+            "color": "#ff4500"
+          }
+        ]
+      }
+    }
+  }
+]

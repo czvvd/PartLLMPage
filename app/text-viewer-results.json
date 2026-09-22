@@ -1,0 +1,1637 @@
+[
+  {
+    "src": "/assets/text-guided/text_1.glb",
+    "thumbnail": "/assets/text-guided/text_1.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Bed Post; Headboard; Pillow; Bed Scarf; Other; Mattress; Bed Platform; Base of Frame; Bed Side; Ladder Upright; Rung; Wall Side Panel; Tread Surface; Riser Panel in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Bed Post",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Bed Post",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Headboard",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Pillow",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Pillow",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Pillow",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Pillow",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Pillow",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Pillow",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Bed Scarf",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Other",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Mattress",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Mattress",
+        "color": "#FFFAC8"
+      },
+      {
+        "id": 13,
+        "label": "Bed Platform",
+        "color": "#800000"
+      },
+      {
+        "id": 14,
+        "label": "Base of Frame",
+        "color": "#AAFFC3"
+      },
+      {
+        "id": 15,
+        "label": "Bed Side",
+        "color": "#808000"
+      },
+      {
+        "id": 16,
+        "label": "Ladder Upright",
+        "color": "#FFD8B1"
+      },
+      {
+        "id": 17,
+        "label": "Rung",
+        "color": "#000075"
+      },
+      {
+        "id": 18,
+        "label": "Rung",
+        "color": "#A9A9A9"
+      },
+      {
+        "id": 19,
+        "label": "Rung",
+        "color": "#FF4500"
+      },
+      {
+        "id": 20,
+        "label": "Rung",
+        "color": "#E6194B"
+      },
+      {
+        "id": 21,
+        "label": "Rung",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 22,
+        "label": "Rung",
+        "color": "#4363D8"
+      },
+      {
+        "id": 23,
+        "label": "Ladder Upright",
+        "color": "#F58231"
+      },
+      {
+        "id": 24,
+        "label": "Rung",
+        "color": "#911EB4"
+      },
+      {
+        "id": 25,
+        "label": "Bed Post",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 26,
+        "label": "Bed Post",
+        "color": "#F032E6"
+      },
+      {
+        "id": 27,
+        "label": "Wall Side Panel",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 28,
+        "label": "Tread Surface",
+        "color": "#FABED4"
+      },
+      {
+        "id": 29,
+        "label": "Tread Surface",
+        "color": "#469990"
+      },
+      {
+        "id": 30,
+        "label": "Tread Surface",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 31,
+        "label": "Tread Surface",
+        "color": "#9A6324"
+      },
+      {
+        "id": 32,
+        "label": "Tread Surface",
+        "color": "#FFFAC8"
+      },
+      {
+        "id": 33,
+        "label": "Tread Surface",
+        "color": "#800000"
+      },
+      {
+        "id": 34,
+        "label": "Riser Panel",
+        "color": "#AAFFC3"
+      },
+      {
+        "id": 35,
+        "label": "Riser Panel",
+        "color": "#808000"
+      },
+      {
+        "id": 36,
+        "label": "Riser Panel",
+        "color": "#FFD8B1"
+      },
+      {
+        "id": 37,
+        "label": "Riser Panel",
+        "color": "#000075"
+      },
+      {
+        "id": 38,
+        "label": "Riser Panel",
+        "color": "#A9A9A9"
+      },
+      {
+        "id": 39,
+        "label": "Riser Panel",
+        "color": "#FF4500"
+      },
+      {
+        "id": 40,
+        "label": "Other",
+        "color": "#E6194B"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_2.glb",
+    "thumbnail": "/assets/text-guided/text_2.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Keyboard Keys in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Keyboard Keys",
+        "color": "#E6194B"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_3.glb",
+    "thumbnail": "/assets/text-guided/text_3.png",
+    "cameraOrbit": "25deg 75deg auto",
+    "prompt": "Please segment all the Head; Torso; Hand; Fabric; Rope; Sack; Scale; Base in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Head",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Torso",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Hand",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Fabric",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Rope",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Sack",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Scale",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Base",
+        "color": "#BFEF45"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_4.glb",
+    "thumbnail": "/assets/text-guided/text_4.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Button; Camera Mode Dial; Camera Body; Camera Lens Cover; Camera Lens Body; Camera View Finder; Camera Red Eye Reduction; Display; Camera Main Controller Dial; Flash; Power Switch in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Button",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Camera Mode Dial",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Camera Body",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Camera Lens Cover",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Camera Lens Body",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Camera View Finder",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Camera Red Eye Reduction",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Display",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Camera Main Controller Dial",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Flash",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Power Switch",
+        "color": "#DCBEFF"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_5.glb",
+    "thumbnail": "/assets/text-guided/text_5.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Pedal; Helicopter Cyclic Control; Helicopter Monitor; Fin; Helicopter Door; Helicopter Body; Helicopter Horizontal Stabilizer; Helicopter Landing Skid; Window; Helicopter Pilot Seat; Helicopter Passenger Seat; Helicopter Rotor Hub; Helicopter Rotor Blades in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Pedal",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Helicopter Cyclic Control",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Helicopter Monitor",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Fin",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Helicopter Door",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Helicopter Body",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Helicopter Horizontal Stabilizer",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Helicopter Landing Skid",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Window",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Helicopter Pilot Seat",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Helicopter Passenger Seat",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Helicopter Rotor Hub",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Helicopter Rotor Blades",
+        "color": "#FFFAC8"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_6.glb",
+    "thumbnail": "/assets/text-guided/text_6.png",
+    "cameraOrbit": "115deg 75deg auto",
+    "prompt": "Please segment all the Collar; Button; Sleeve; Pocket in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Collar",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Button",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Sleeve",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Sleeve",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Pocket",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Pocket",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Button",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Button",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Button",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Button",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Button",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Button",
+        "color": "#9A6324"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_7.glb",
+    "thumbnail": "/assets/text-guided/text_7.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Armrest; Leg; Support Rod; Wheel; Caster Rod; Throw Pillow; Backrest Cushion; Backrest Frame; Seat Cushion Support Box; Seat Cushion; Other in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Armrest",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Leg",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Leg",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Support Rod",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Wheel",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Caster Rod",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Throw Pillow",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Backrest Cushion",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Backrest Frame",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Seat Cushion Support Box",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Seat Cushion",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Other",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Backrest Cushion",
+        "color": "#FFFAC8"
+      },
+      {
+        "id": 13,
+        "label": "Wheel",
+        "color": "#800000"
+      },
+      {
+        "id": 14,
+        "label": "Caster Rod",
+        "color": "#AAFFC3"
+      },
+      {
+        "id": 15,
+        "label": "Leg",
+        "color": "#808000"
+      },
+      {
+        "id": 16,
+        "label": "Leg",
+        "color": "#FFD8B1"
+      },
+      {
+        "id": 17,
+        "label": "Support Rod",
+        "color": "#000075"
+      },
+      {
+        "id": 18,
+        "label": "Leg",
+        "color": "#A9A9A9"
+      },
+      {
+        "id": 19,
+        "label": "Armrest",
+        "color": "#FF4500"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_8.glb",
+    "thumbnail": "/assets/text-guided/text_8.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Shade Connector Rod; Shade Cover; Central Column in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Shade Connector Rod",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Shade Cover",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Shade Connector Rod",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Shade Connector Rod",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Shade Connector Rod",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Shade Cover",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Shade Cover",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Shade Connector Rod",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Shade Connector Rod",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Shade Connector Rod",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Shade Connector Rod",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Central Column",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Shade Connector Rod",
+        "color": "#FFFAC8"
+      },
+      {
+        "id": 13,
+        "label": "Shade Connector Rod",
+        "color": "#800000"
+      },
+      {
+        "id": 14,
+        "label": "Shade Connector Rod",
+        "color": "#AAFFC3"
+      },
+      {
+        "id": 15,
+        "label": "Shade Connector Rod",
+        "color": "#808000"
+      },
+      {
+        "id": 16,
+        "label": "Shade Cover",
+        "color": "#FFD8B1"
+      },
+      {
+        "id": 17,
+        "label": "Shade Cover",
+        "color": "#000075"
+      },
+      {
+        "id": 18,
+        "label": "Shade Connector Rod",
+        "color": "#A9A9A9"
+      },
+      {
+        "id": 19,
+        "label": "Shade Connector Rod",
+        "color": "#FF4500"
+      },
+      {
+        "id": 20,
+        "label": "Shade Connector Rod",
+        "color": "#E6194B"
+      },
+      {
+        "id": 21,
+        "label": "Shade Cover",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 22,
+        "label": "Shade Connector Rod",
+        "color": "#4363D8"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_9.glb",
+    "thumbnail": "/assets/text-guided/text_9.png",
+    "cameraOrbit": "25deg 75deg auto",
+    "prompt": "Please segment all the Handle Main Body; Handle Grip; Main Body; Contents in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Handle Main Body",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Handle Grip",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Main Body",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Contents",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Handle Main Body",
+        "color": "#911EB4"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_10.glb",
+    "thumbnail": "/assets/text-guided/text_10.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Horizontal Bottom Panel; Handle; Vertical Divider Panel in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Horizontal Bottom Panel",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Handle",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Vertical Divider Panel",
+        "color": "#4363D8"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_11.glb",
+    "thumbnail": "/assets/text-guided/text_11.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Hair Dryer Air Concentrator; Hair Dryer Air Outlet Grill; Hair Dryer Heating Element; Hair Dryer Heating Element Holder; Hair Dryer Fan Housing; Power Switch; Hair Dryer Speed Switch; Hair Dryer Hanging Ring; Handle; Fan; Cord; Motor; Hair Dryer Air Inlet Grill in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Hair Dryer Air Concentrator",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Hair Dryer Air Outlet Grill",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Hair Dryer Heating Element",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Hair Dryer Heating Element Holder",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Hair Dryer Fan Housing",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Power Switch",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Hair Dryer Speed Switch",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Hair Dryer Hanging Ring",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Handle",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Fan",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Cord",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Motor",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Hair Dryer Air Inlet Grill",
+        "color": "#FFFAC8"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_12.glb",
+    "thumbnail": "/assets/text-guided/text_12.png",
+    "cameraOrbit": "32deg 74deg auto",
+    "prompt": "Please segment all the Bicycle Saddle; Bicycle Pedal; Bicycle Wheel; Bicycle Fork in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Bicycle Saddle",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Bicycle Pedal",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Bicycle Wheel",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Bicycle Fork",
+        "color": "#F58231"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_13.glb",
+    "thumbnail": "/assets/text-guided/text_13.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Head; Eye in <point_cloud>.",
+    "labels": [
+      { "id": 0, "label": "Head", "color": "#E6194B" },
+      { "id": 1, "label": "Eye", "color": "#3CB44B" }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_14.glb",
+    "thumbnail": "/assets/text-guided/text_14.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Leg; Foot; Coat Rack Hanger Knob; Coat Rack Hanger; Pole; Coat Rack Umbrella Stand; Stretcher; Support in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Leg",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Foot",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Coat Rack Hanger Knob",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Coat Rack Hanger",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Pole",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Coat Rack Umbrella Stand",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Stretcher",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Support",
+        "color": "#BFEF45"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_15.glb",
+    "thumbnail": "/assets/text-guided/text_15.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Support Bar; Horizontal Top Panel; Gazebo Pillar; Top Frame; Roof Connector; Seat; Stretcher; Leg; Seat Support in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Support Bar",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Horizontal Top Panel",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Gazebo Pillar",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Top Frame",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Roof Connector",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Seat",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Stretcher",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Leg",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Seat Support",
+        "color": "#FABED4"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_16.glb",
+    "thumbnail": "/assets/text-guided/text_16.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Horizontal Bottom Panel; Jug Body; Jug Spout; Handle; Jug Lid; Foot in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Horizontal Bottom Panel",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Jug Body",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Jug Spout",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Handle",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Jug Lid",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Foot",
+        "color": "#42D4F4"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_17.glb",
+    "thumbnail": "/assets/text-guided/text_17.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Bar; Chain; Chainsaw Engine; Chainsaw Body; Hand Guard; Chainsaw Pull Start; Handle in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Bar",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Chain",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Chainsaw Engine",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Chainsaw Body",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Hand Guard",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Chainsaw Pull Start",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Handle",
+        "color": "#F032E6"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_18.glb",
+    "thumbnail": "/assets/text-guided/text_18.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Helmet; Chest Armor; Arm; Leg in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Helmet",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Chest Armor",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Arm",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Leg",
+        "color": "#F58231"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_20.glb",
+    "thumbnail": "/assets/text-guided/text_20.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Hat; Neck Guard; Hand; Bow Tie; Shoe in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Hat",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Neck Guard",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Hand",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Hand",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Bow Tie",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Shoe",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Shoe",
+        "color": "#F032E6"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_21.glb",
+    "thumbnail": "/assets/text-guided/text_21.png",
+    "cameraOrbit": "25deg 75deg auto",
+    "prompt": "Please segment all the Head; Torso; Shoulder; Arm; Hand; Leg in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Head",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Torso",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Shoulder",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Arm",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Hand",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Leg",
+        "color": "#42D4F4"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_22.glb",
+    "thumbnail": "/assets/text-guided/text_22.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Pedestal; Candle Container; Frame; Candle Holder Connector; Candle in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Pedestal",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Candle Container",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Frame",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Candle Holder Connector",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Candle",
+        "color": "#911EB4"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_23.glb",
+    "thumbnail": "/assets/text-guided/text_23.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Cord; Button; Charging Station Body; Control Panel; Charging Station Base; Charging Station Charging Plug; Charging Station Plug Dock in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Cord",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Button",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Charging Station Body",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Control Panel",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Charging Station Base",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Charging Station Charging Plug",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Charging Station Plug Dock",
+        "color": "#F032E6"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_24.glb",
+    "thumbnail": "/assets/text-guided/text_24.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Wheel; Caster Rod; Armrest Vertical Rod; Armrest Horizontal Rod; Armrest Connecting Rod; Leg; Height Adjuster; Footrest Frame; Central Support Column; Cushion; Footrest Cushion; Back Cushion; Central Connector; Support Structure in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Wheel",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Caster Rod",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Armrest Vertical Rod",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Armrest Horizontal Rod",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Armrest Connecting Rod",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Height Adjuster",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Wheel",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Caster Rod",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Height Adjuster",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Height Adjuster",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Wheel",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Caster Rod",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Footrest Frame",
+        "color": "#FFFAC8"
+      },
+      {
+        "id": 13,
+        "label": "Central Support Column",
+        "color": "#800000"
+      },
+      {
+        "id": 14,
+        "label": "Cushion",
+        "color": "#AAFFC3"
+      },
+      {
+        "id": 15,
+        "label": "Footrest Cushion",
+        "color": "#808000"
+      },
+      {
+        "id": 16,
+        "label": "Back Cushion",
+        "color": "#FFD8B1"
+      },
+      {
+        "id": 17,
+        "label": "Central Connector",
+        "color": "#000075"
+      },
+      {
+        "id": 18,
+        "label": "Support Structure",
+        "color": "#A9A9A9"
+      },
+      {
+        "id": 19,
+        "label": "Height Adjuster",
+        "color": "#FF4500"
+      },
+      {
+        "id": 20,
+        "label": "Leg",
+        "color": "#E6194B"
+      },
+      {
+        "id": 21,
+        "label": "Footrest Frame",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 22,
+        "label": "Wheel",
+        "color": "#4363D8"
+      },
+      {
+        "id": 23,
+        "label": "Caster Rod",
+        "color": "#F58231"
+      },
+      {
+        "id": 24,
+        "label": "Armrest Connecting Rod",
+        "color": "#911EB4"
+      },
+      {
+        "id": 25,
+        "label": "Armrest Horizontal Rod",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 26,
+        "label": "Armrest Vertical Rod",
+        "color": "#F032E6"
+      },
+      {
+        "id": 27,
+        "label": "Caster Rod",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 28,
+        "label": "Wheel",
+        "color": "#FABED4"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_25.glb",
+    "thumbnail": "/assets/text-guided/text_25.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Teddy Bear Nose; Eye; Leg; Arm; Teddy Bear Head; Teddy Bear Ear; Teddy Bear Body in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Teddy Bear Nose",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Eye",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Leg",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Arm",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Teddy Bear Head",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Teddy Bear Ear",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Teddy Bear Body",
+        "color": "#F032E6"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_26.glb",
+    "thumbnail": "/assets/text-guided/text_26.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Crossbar; Wheel Chair Push Handle; Wheel Chair Fork; Wheel Chair Footrest; Wheel Chair Rear Wheel; Wheel Chair Handrim; Rim; Seat; Frame; Support; Wheel Chair Backrest; Wheel Chair Arm Rest; Wheel Chair Caster Wheel in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Crossbar",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Wheel Chair Push Handle",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Wheel Chair Fork",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Wheel Chair Footrest",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Wheel Chair Rear Wheel",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Wheel Chair Handrim",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Rim",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Seat",
+        "color": "#BFEF45"
+      },
+      {
+        "id": 8,
+        "label": "Frame",
+        "color": "#FABED4"
+      },
+      {
+        "id": 9,
+        "label": "Support",
+        "color": "#469990"
+      },
+      {
+        "id": 10,
+        "label": "Wheel Chair Backrest",
+        "color": "#DCBEFF"
+      },
+      {
+        "id": 11,
+        "label": "Wheel Chair Arm Rest",
+        "color": "#9A6324"
+      },
+      {
+        "id": 12,
+        "label": "Wheel Chair Caster Wheel",
+        "color": "#FFFAC8"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_27.glb",
+    "thumbnail": "/assets/text-guided/text_27.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Head; Torso; Arm; Skirt; Ponytail in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Head",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Torso",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Arm",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Skirt",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Ponytail",
+        "color": "#911EB4"
+      }
+    ],
+    "hasUnsegmented": true
+  },
+  {
+    "src": "/assets/text-guided/text_28.glb",
+    "thumbnail": "/assets/text-guided/text_28.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Compass Body; Lid; Hinge; Compass Scale; Compass Bar Needle; Compass Bearing; Glass Panel; Ring Circle in <point_cloud>.",
+    "labels": [
+      {
+        "id": 0,
+        "label": "Compass Body",
+        "color": "#E6194B"
+      },
+      {
+        "id": 1,
+        "label": "Lid",
+        "color": "#3CB44B"
+      },
+      {
+        "id": 2,
+        "label": "Hinge",
+        "color": "#4363D8"
+      },
+      {
+        "id": 3,
+        "label": "Compass Scale",
+        "color": "#F58231"
+      },
+      {
+        "id": 4,
+        "label": "Compass Bar Needle",
+        "color": "#911EB4"
+      },
+      {
+        "id": 5,
+        "label": "Compass Bearing",
+        "color": "#42D4F4"
+      },
+      {
+        "id": 6,
+        "label": "Glass Panel",
+        "color": "#F032E6"
+      },
+      {
+        "id": 7,
+        "label": "Ring Circle",
+        "color": "#BFEF45"
+      }
+    ],
+    "hasUnsegmented": false
+  },
+  {
+    "src": "/assets/text-guided/text_31.glb",
+    "thumbnail": "/assets/text-guided/text_31.png",
+    "cameraOrbit": "20deg 75deg auto",
+    "prompt": "Please segment all the Balance Scale Base; Beam; Fulcrum; Ring Circle; Balance Scale Pan; String in <point_cloud>.",
+    "labels": [
+      { "id": 0, "label": "Balance Scale Base", "color": "#E6194B" },
+      { "id": 1, "label": "Beam", "color": "#3CB44B" },
+      { "id": 2, "label": "Fulcrum", "color": "#4363D8" },
+      { "id": 3, "label": "Ring Circle", "color": "#F58231" },
+      { "id": 4, "label": "Balance Scale Pan", "color": "#911EB4" },
+      { "id": 5, "label": "String", "color": "#42D4F4" }
+    ],
+    "hasUnsegmented": false
+  }
+]

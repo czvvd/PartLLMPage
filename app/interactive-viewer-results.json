@@ -1,0 +1,1015 @@
+[
+  {
+    "thumbnail": "/assets/interactive/interactive_1.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_1_1.glb",
+        "prompt": "Please segment and name the part at (0.031, 0.317, -0.007) in <point_cloud>.",
+        "predictedLabel": "Keychain Hook",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.030742 0.317244 -0.006953"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_1_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.031, 0.317, -0.007), (-0.002, 0.085, -0.022)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Hook and Chain",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.030742 0.317244 -0.006953"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.001768 0.084667 -0.021892"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_2.png",
+    "cameraOrbit": "30deg 72deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_2_1.glb",
+        "prompt": "Please segment and name the part at (-0.231, -0.142, -0.108) in <point_cloud>.",
+        "predictedLabel": "Ear Cup",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.231382 -0.142252 -0.107942"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_2_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.231, -0.142, -0.108), (-0.296, -0.204, -0.126)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Ear Cup Unit",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.231382 -0.142252 -0.107942"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.295724 -0.203592 -0.125889"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_3.png",
+    "cameraOrbit": "25deg 75deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_3_1.glb",
+        "prompt": "Please segment and name the part at (0.008, -0.313, -0.118) in <point_cloud>.",
+        "predictedLabel": "Chair Backrest",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.004198 0.118322 -0.313363"
+          }
+        ]
+      },
+      "three": {
+        "src": "/assets/interactive/interactive_3_3.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.008, -0.313, -0.118), (0.004, -0.079, 0.117), (-0.070, -0.266, 0.097)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Chair Backrest and Seat",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.004198 0.118322 -0.313363"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.066314 -0.097102 -0.265726"
+          },
+          {
+            "index": 3,
+            "type": "positive",
+            "position": "0.007302 -0.117350 -0.079394"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_4.png",
+    "cameraOrbit": "28deg 74deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_4_1.glb",
+        "prompt": "Please segment and name the part at (-0.253, 0.299, -0.034) in <point_cloud>.",
+        "predictedLabel": "Telescope Aperture",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.253050 0.299026 -0.033855"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_4_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.253, 0.299, -0.034)]. Negative coordinates: [(-0.261, 0.299, -0.052)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Telescope Aperture",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.253050 0.299026 -0.033855"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.260983 0.298860 -0.052111"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_5.png",
+    "cameraOrbit": "20deg 72deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_5_1.glb",
+        "prompt": "Please segment and name the part at (-0.000, -0.149, -0.011) in <point_cloud>.",
+        "predictedLabel": "Strap Body",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.000127 -0.148910 -0.010919"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_5_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.000, -0.149, -0.011), (-0.022, 0.441, -0.013)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Strap Body",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.000127 -0.148910 -0.010919"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.022443 0.441332 -0.012736"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_6.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_6_1.glb",
+        "prompt": "Please segment and name the part at (-0.242, 0.320, -0.031) in <point_cloud>.",
+        "predictedLabel": "Shelf",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.241641 0.319742 -0.030824"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_6_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.242, 0.320, -0.031), (-0.260, 0.166, -0.087)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Shelf",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.241641 0.319742 -0.030824"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.260237 0.166064 -0.087038"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_7.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_7_1.glb",
+        "prompt": "Please segment and name the part at (0.021, -0.118, 0.180) in <point_cloud>.",
+        "predictedLabel": "Hose and Nozzle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.021165 -0.117542 0.179610"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_7_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.021, -0.118, 0.180)]. Negative coordinates: [(0.002, 0.326, 0.007)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Nozzle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.021165 -0.117542 0.179610"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "0.001613 0.326462 0.007074"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_8.png",
+    "cameraOrbit": "28deg 74deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_8_1.glb",
+        "prompt": "Please segment and name the part at (-0.176, 0.019, -0.043) in <point_cloud>.",
+        "predictedLabel": "Bicycle Seat Stay",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.175811 0.018858 -0.043151"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_8_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.176, 0.019, -0.043), (-0.218, -0.021, 0.019)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Bicycle Seat Stay",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.175811 0.018858 -0.043151"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.217924 -0.021066 0.019233"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_9.png",
+    "cameraOrbit": "25deg 75deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_9_1.glb",
+        "prompt": "Please segment and name the part at (-0.059, 0.154, 0.027) in <point_cloud>.",
+        "predictedLabel": "Muzzle and Nose",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.058232 -0.027102 0.153723"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_9_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.059, 0.154, 0.027)]. Negative coordinates: [(0.007, 0.167, -0.139)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Muzzle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.058232 -0.027102 0.153723"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "0.007519 0.138740 0.166274"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_10.png",
+    "cameraOrbit": "28deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_10_1.glb",
+        "prompt": "Please segment and name the part at (-0.076, -0.168, -0.147) in <point_cloud>.",
+        "predictedLabel": "Lampshade",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.076137 -0.168198 -0.147090"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_10_2.glb",
+        "prompt": "The highlighted positive points in <point_cloud> indicate two matching lampshades. Please segment and name both selected parts.",
+        "predictedLabel": "Lampshades",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.076137 -0.168198 -0.147090"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.165452 -0.168198 -0.007608"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_11.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_11_1.glb",
+        "prompt": "Please segment and name the part at (-0.311, -0.063, 0.009) in <point_cloud>.",
+        "predictedLabel": "Open End",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.311167 -0.062685 0.009115"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_11_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.311, -0.063, 0.009), (0.487, -0.003, 0.007)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Wrench Jaws",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.311167 -0.062685 0.009115"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.487259 -0.002893 0.007423"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_12.png",
+    "cameraOrbit": "28deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_12_1.glb",
+        "prompt": "Please segment and name the part at (-0.017, -0.069, 0.004) in <point_cloud>.",
+        "predictedLabel": "Base",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.016819 -0.068765 0.003523"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_12_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.017, -0.069, 0.004)]. Negative coordinates: [(-0.084, -0.366, -0.033)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Water Filter",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.016819 -0.068765 0.003523"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.084214 -0.365562 -0.033430"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_13.png",
+    "cameraOrbit": "28deg 72deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_13_1.glb",
+        "prompt": "Please segment and name the part at (-0.016, 0.004, 0.022) in <point_cloud>.",
+        "predictedLabel": "Handle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.016270 0.004195 0.022010"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_13_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.016, 0.004, 0.022)]. Negative coordinates: [(0.115, -0.424, -0.016)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Handle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.016270 0.004195 0.022010"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "0.115470 -0.423525 -0.015798"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_14.png",
+    "cameraOrbit": "28deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_14_1.glb",
+        "prompt": "Please segment and name the part at (-0.000, -0.283, 0.065) in <point_cloud>.",
+        "predictedLabel": "Piano Pedal",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.000489 -0.283406 0.065387"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_14_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.000, -0.283, 0.065), (0.071, -0.280, 0.065)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Piano Pedals",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.000489 -0.283406 0.065387"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.070783 -0.279903 0.064707"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_15.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_15_1.glb",
+        "prompt": "Please segment and name the part at (0.040, 0.299, 0.000) in <point_cloud>.",
+        "predictedLabel": "Head Connector",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.039692 0.299064 0.000162"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_15_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.040, 0.299, 0.000), (-0.189, 0.348, -0.001)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Hammer Head",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.039692 0.299064 0.000162"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.189437 0.347744 -0.001098"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_16.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_16_1.glb",
+        "prompt": "Please segment and name the part at (-0.196, 0.233, -0.029) in <point_cloud>.",
+        "predictedLabel": "Chuck and Bit",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.195984 0.232618 -0.028909"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_16_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.196, 0.233, -0.029)]. Negative coordinates: [(-0.358, 0.230, -0.001)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Drill Chuck",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.195984 0.232618 -0.028909"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.358426 0.230090 -0.000631"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_17.png",
+    "cameraOrbit": "28deg 74deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_17_1.glb",
+        "prompt": "Please segment and name the part at (-0.026, 0.041, 0.330) in <point_cloud>.",
+        "predictedLabel": "Regular Temple",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.026020 0.041396 0.329614"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_17_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.026, 0.041, 0.330)]. Negative coordinates: [(-0.039, 0.045, -0.331)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Temple",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.026020 0.041396 0.329614"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.039437 0.045350 -0.331312"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_18.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_18_1.glb",
+        "prompt": "Please segment and name the part at (-0.231, -0.064, -0.011) in <point_cloud>.",
+        "predictedLabel": "Seat Cushion",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.230548 -0.063767 -0.010574"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_18_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.231, -0.064, -0.011), (-0.347, 0.229, -0.006)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Seat Assembly",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.230548 -0.063767 -0.010574"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.346570 0.229031 -0.005820"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_19.png",
+    "cameraOrbit": "110deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_19_1.glb",
+        "prompt": "Please segment and name the part at (0.037, -0.163, -0.097) in <point_cloud>.",
+        "predictedLabel": "Handle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.037074 -0.163066 -0.096780"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_19_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.037, -0.163, -0.097), (-0.002, -0.272, 0.152)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Pliers Handles",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.037074 -0.163066 -0.096780"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.001782 -0.271660 0.151869"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_20.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_20_1.glb",
+        "prompt": "Please segment and name the part at (-0.210, -0.108, -0.038) in <point_cloud>.",
+        "predictedLabel": "Charging Cable",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.209890 -0.108154 -0.037910"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_20_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.210, -0.108, -0.038), (0.212, -0.340, -0.035)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Charging Cables",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.209890 -0.108154 -0.037910"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.211563 -0.339576 -0.034978"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_21.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_21_1.glb",
+        "prompt": "Please segment and name the part at (-0.047, -0.005, 0.345) in <point_cloud>.",
+        "predictedLabel": "Grip Region",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.047021 -0.004759 0.345493"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_21_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.047, -0.005, 0.345)]. Negative coordinates: [(-0.149, -0.001, 0.328)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Grip",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.047021 -0.004759 0.345493"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.149024 -0.000680 0.328091"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_22.png",
+    "cameraOrbit": "105deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_22_1.glb",
+        "prompt": "Please segment and name the part at (0.018, -0.150, 0.012) in <point_cloud>.",
+        "predictedLabel": "Whistle Chamber",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.018296 -0.150038 0.011653"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_22_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.018, -0.150, 0.012), (0.100, 0.101, 0.444)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Whistle Body",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.018296 -0.150038 0.011653"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.099519 0.100885 0.444355"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_23.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_23_1.glb",
+        "prompt": "Please segment and name the part at (-0.214, -0.411, 0.125) in <point_cloud>.",
+        "predictedLabel": "Front Foot",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.213792 -0.411163 0.125411"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_23_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.214, -0.411, 0.125), (-0.225, -0.405, -0.098)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Foot",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.213792 -0.411163 0.125411"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.225464 -0.405266 -0.097877"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_24.png",
+    "cameraOrbit": "32deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_24_1.glb",
+        "prompt": "Please segment and name the part at (0.001, 0.375, 0.205) in <point_cloud>.",
+        "predictedLabel": "Telescope Aperture",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.001179 0.375299 0.205101"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_24_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.001, 0.375, 0.205)]. Negative coordinates: [(-0.042, 0.354, 0.156)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Lens",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.001179 0.375299 0.205101"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "-0.041835 0.353709 0.156499"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_25.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_25_1.glb",
+        "prompt": "Please segment and name the part at (0.000, -0.233, -0.005) in <point_cloud>.",
+        "predictedLabel": "Shaft and Connector",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.000297 -0.232950 -0.004596"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_25_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.000, -0.233, -0.005)]. Negative coordinates: [(0.002, 0.076, 0.014)]. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Blade Connector",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.000297 -0.232950 -0.004596"
+          },
+          {
+            "index": 2,
+            "type": "negative",
+            "position": "0.002368 0.075884 0.014205"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_26.png",
+    "cameraOrbit": "28deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_26_1.glb",
+        "prompt": "Please segment and name the part at (-0.006, 0.207, 0.020) in <point_cloud>.",
+        "predictedLabel": "Pole Connector",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.006451 0.206704 0.020190"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_26_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(-0.006, 0.207, 0.020), (-0.019, -0.454, -0.002)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Street Light Pole",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "-0.006451 0.206704 0.020190"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "-0.019287 -0.454224 -0.002378"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_27.png",
+    "cameraOrbit": "30deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_27_1.glb",
+        "prompt": "Please segment and name the part at (0.137, -0.449, -0.002) in <point_cloud>.",
+        "predictedLabel": "Handle End",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.136764 -0.449054 -0.002443"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_27_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.137, -0.449, -0.002), (0.143, -0.020, -0.047)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Pickaxe Handle",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.136764 -0.449054 -0.002443"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.142514 -0.020122 -0.046943"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "thumbnail": "/assets/interactive/interactive_28.png",
+    "cameraOrbit": "28deg 73deg auto",
+    "defaultStep": "one",
+    "steps": {
+      "one": {
+        "src": "/assets/interactive/interactive_28_1.glb",
+        "prompt": "Please segment and name the part at (0.252, -0.109, 0.011) in <point_cloud>.",
+        "predictedLabel": "Bowl Base",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.251673 -0.108895 0.010988"
+          }
+        ]
+      },
+      "two": {
+        "src": "/assets/interactive/interactive_28_2.glb",
+        "prompt": "The highlighted points in <point_cloud> show a segmentation mask. Positive coordinates: [(0.252, -0.109, 0.011), (0.391, 0.158, -0.102)]. Negative coordinates: []. The positive coordinates should be included, and the negative coordinates should be excluded. Please refine and name the mask.",
+        "predictedLabel": "Tobacco Pipe Bowl",
+        "points": [
+          {
+            "index": 1,
+            "type": "positive",
+            "position": "0.251673 -0.108895 0.010988"
+          },
+          {
+            "index": 2,
+            "type": "positive",
+            "position": "0.391251 0.157774 -0.102282"
+          }
+        ]
+      }
+    }
+  }
+]
