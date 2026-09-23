@@ -199,16 +199,14 @@ export default function Home() {
           <h2 id="citation-title">BibTeX</h2>
         </div>
         <pre className="citation-card">
-          <code>{`@article{zhu2026partllm,
+          <code>{`@misc{zhu2026partllmunifiedmultimodalfoundation,
     title={PartLLM: A Unified Multimodal Foundation for 3D Part Segmentation},
     author={Zhe Zhu and Yiheng Zhang and Peng Li and Zixing Zhao and Honghua Chen and Yaqing Zhang and Le Wan and Zhiyang Dou and Cheng Lin and Yuan Liu and Mingqiang Wei and Wenping Wang},
-    journal={ACM Transactions on Graphics},
-    volume={45},
-    number={6},
-    articleno={178},
     year={2026},
-    month={dec},
-    doi={10.1145/3842577}
+    eprint={2609.25832},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV},
+    url={https://arxiv.org/abs/2609.25832}
 }`}</code>
         </pre>
       </section>
