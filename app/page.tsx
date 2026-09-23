@@ -5,7 +5,7 @@ import { Box, Code2, FileText, type LucideIcon } from 'lucide-react';
 import { assetPath } from './asset-path';
 
 const resources: Array<{ label: string; icon: LucideIcon; href?: string }> = [
-  { label: 'Paper', icon: FileText },
+  { label: 'Paper', icon: FileText, href: 'https://arxiv.org/abs/2609.25832' },
   { label: 'Code', icon: Code2, href: 'https://github.com/czvvd/PartLLM' },
   { label: 'Model', icon: Box, href: 'https://huggingface.co/Czvvd/PartLLM' },
 ];
@@ -81,7 +81,7 @@ export default function Home() {
             href ? (
               <a
                 key={label}
-                className="resource-button"
+                className={`resource-button${label === 'Paper' ? ' resource-button--active' : ''}`}
                 href={href}
                 target="_blank"
                 rel="noreferrer"
